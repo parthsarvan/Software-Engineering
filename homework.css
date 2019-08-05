@@ -1,0 +1,45 @@
+div#homeworkList {
+	float: left;
+	width: 50%;
+}
+
+div#homeworkList input[type=checkbox] {
+	position: absolute;
+	transform: scale(1.5);
+}
+
+#markCompleted {
+	position: relative;
+	left: -12%;
+	background-color: #C5E0B4;
+	color: #565656;
+	border: 4px solid #565656;
+}
+
+div#homeworkList div {
+	background-color: #C5E0B4;
+	border-top: 2px solid #565656;
+}
+
+div#homeworkList p:nth-child(2) {
+	float: left;
+	padding-left: 5%;
+}
+
+div#homeworkList p:nth-child(3) {
+	text-align: right;
+	padding-right: 2%;
+}
+
+div#homeworkForm {
+	float: right;
+	text-align: center;
+}
+
+div#homeworkForm input[type=submit] {
+	background-color: #C5E0B4;
+	color: #565656;
+	border: 4px solid #565656;
+	padding: 2%;
+	margin-top: 7%;
+}

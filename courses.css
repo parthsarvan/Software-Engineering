@@ -1,0 +1,44 @@
+div#courseList {
+	float: left;
+	width: 50%;
+}
+
+div#courseList input[type=checkbox] {
+	position: absolute;
+	transform: scale(1.5);
+}
+
+#remove {
+	position: relative;
+	left: -12%;
+	background-color: #C5E0B4;
+	color: #565656;
+	border: 4px solid #565656;
+}
+
+div#courseList div {
+	background-color: #C5E0B4;
+	border-top: 2px solid #565656;
+}
+
+div#courseList p:nth-child(2) {
+	text-align: left;
+	padding-left: 5%;
+}
+
+div#courseForm {
+	float: right;
+	text-align: center;
+}
+
+div#courseForm input[type=submit] {
+	background-color: #C5E0B4;
+	color: #565656;
+	border: 4px solid #565656;
+	padding: 2%;
+	margin-top: 7%;
+}
+
+div#procrastinationMeter {
+	margin-top: 30%;
+}

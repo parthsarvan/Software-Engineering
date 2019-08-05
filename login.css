@@ -1,0 +1,20 @@
+div#page {
+	width: 15%;
+	padding: 3%;
+	padding-right: 7%;
+	padding-left: 7%;
+}
+
+div#page p {
+	margin: 2%;
+}
+
+div#page input[type=text] {
+	width: 100%;
+}
+
+div#page input[type=password] {
+	width: 100%;
+	margin-bottom: 15%;
+}
+

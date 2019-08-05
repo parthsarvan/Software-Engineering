@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Clever Planner</title>
+        
+        <div id = "header">
+            <img src="./img/chalkboard.jpg" alt = "Chalkboard"/>
+            <div id = "navBar">               
+                <h1>Clever Planner</h1>
+                <ul>
+                    <li><h2><a href = "./index.html">Home</a></h2></li>
+                    <li><h2><a href = "./courses.html">Courses</a></h2></li>
+                    <li><h2><a href = "./homework.html">Homework</a></h2></li>
+                    <li><h2><a href = "./calendar.html">Calendar</a></h2></li>
+                    <li><h2><a href = "./profile.html">Profile</a></h2></li>
+                </ul>
+            </div>
+        </div>
+        <meta name="description" content="Climate Change"/>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/theme.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/home.css" />
+    </head>
+
+    <body>
+        <div id = "page">
+            <div id = "homeworkList">
+                <h1>To-Do List</h1>
+            </div>
+            <p><input type="button" id = "markCompleted" value="Mark Completed" onclick="removeHomeworks()"></p>
+            <script src="./scripts/homeworkManager.js"></script>
+            <script src="./scripts/homeworkList.js"></script>
+
+            <div id = "links">
+                <h1>Academic Resources</h1>
+                <p><a href="http://web.iit.edu/registrar/academic-calendar" target="_blank">Academic Calendar</a></p> 
+                <p><a href="http://web.iit.edu/registrar/important-dates/final-exam-schedule" target="_blank">Final Exam Schedule</a></p> 
+                <p><a href="http://iit.bncollege.com/webapp/wcs/stores/servlet/TBWizardView?catalogId=10001&storeId=45055&langId=-1" target="_blank">IIT Bookstore</a></p> 
+                <p><a href="http://web.iit.edu/arc/tutoring-schedule" target="_blank">Tutoring Schedules By Subject</a></p> 
+                <p><a href="http://web.iit.edu/arc/reviews-and-workshops" target="_blank">Reviews and Workshops</a></p> 
+            </div>
+
+            <div id = "procrastinationMeter">
+                <h2>Procrastination Meter</h2>
+                <div id = "emptyMeter">
+                    <div id = "filledMeter"></div>
+                </div>
+                <div id = "onSchedule">
+                    <p>On Schedule! :)</p>
+                </div>
+                <div id = "behindSchedule">
+                    <p>Behind Schedule! :(</p>
+                </div>
+            </div>
+            <script src="./scripts/procrastinationMeter.js"></script>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,142 @@
+html {
+	font-family: "Arial", "sans-serif";
+	background-color: #eeffee;
+	color: #565656;
+}
+
+em  {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 300%;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 180%;
+}
+
+h3 {
+	font-size: 135%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+div#header {
+	position: relative;
+}
+
+div#header > img { 
+    width: 100%; 
+}
+
+div#header > h2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 315%;
+}
+
+div#navBar {
+	width: 100%;
+	bottom: 4px;
+	color:white;
+	border-top: 6px solid #565656;
+	border-bottom: 6px solid #565656;
+}
+
+div#navBar > h1 {
+	position: absolute;
+	width: 60%;
+	bottom: 35%;
+	left: 20%;
+	font-size:720%;
+	text-align: center;
+	text-shadow: #565656 0px 0px 2px,   #565656 0px 0px 2px,   #565656 0px 0px 2px,	#565656 0px 0px 2px,   #565656 0px 0px 2px,   #565656 0px 0px 2px;
+}
+
+div#navBar ul {
+	text-align: center;
+	margin-top: 0px;
+}
+
+div#navBar li {
+	display: inline-block;
+	font-size: 135%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-right: 0.5%;
+}
+
+div#navBar a:link, div#navBar a:visited {
+    background-color: #C5E0B4;
+   	color: #565656;
+    padding: 14px 25px;
+    text-align: center; 
+    display: inline-block;
+}
+
+div#navBar a:hover, div#navBar a:active {
+    background-color: #92d050;
+}
+
+div#page {
+	margin: auto;
+	margin-top: 1%;
+	width: 60%;
+	margin-bottom: 10%;
+	background-color: white;
+	padding: 5%;
+	padding-bottom: 7%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div#page h1 {
+	text-align: center;
+	border-bottom: 2px solid #565656;
+}
+
+div#page h2 {
+	padding-top: 8%;
+	margin-bottom: 2%;
+	font-size: 250%;
+}
+
+div#page h3 {
+	padding-bottom: 1%;
+	font-size: 160%;
+}
+
+div#page p {
+	font-size: 180%;
+	line-height: 130%;
+}
+
+div#procrastinationMeter {
+	margin-top: 25%;
+}
+
+div#emptyMeter {
+	height: 50px;
+	border: 6px solid #565656;
+}
+
+div#filledMeter {
+	height: 100%;
+    border-right: 3px solid #565656;
+}
+
+div#onSchedule {
+	float: left;
+}
+
+div#behindSchedule {
+	float: right;
+}
+
+.late {
+	color: red;
+}
